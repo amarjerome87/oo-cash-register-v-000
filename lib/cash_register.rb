@@ -33,6 +33,7 @@ end
 def void_last_transaction
   @total
   add_item(title,price,quantity)
+  binding.pry
 end
 
 
