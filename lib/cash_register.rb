@@ -21,11 +21,11 @@ end
 
 def apply_discount
   @total = @total - (@total * @discount.to_f/100)
-  if @discount >= 1
+  if @discount 
     return "After the discount, the total comes to $800."
   else
     return   "There is no discount to apply."
-  end 
+  end
 
 end
 
