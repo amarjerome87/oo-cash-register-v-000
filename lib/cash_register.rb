@@ -19,4 +19,7 @@ def add_item (title,price, quantity = 1)
   self.total += @price * @quantity.to_i
 end
 
+def apply_discount
+  @total - @discount
+
 end
