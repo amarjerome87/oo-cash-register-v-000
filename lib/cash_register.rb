@@ -22,6 +22,7 @@ end
 def apply_discount
   @total = @total - (@total * @discount.to_f/100)
     return "After the discount, the total comes to $800."
+    return "There is no discount to apply."
 end
 
 end
