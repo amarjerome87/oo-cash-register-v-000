@@ -31,7 +31,6 @@ end
 
 def items
   self.add_item(title,price,quantity)
-  binding.pry
 end
 
 end
