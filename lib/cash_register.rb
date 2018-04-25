@@ -21,7 +21,6 @@ end
 
 def apply_discount
   @total * @discount/100
-  binding.pry
 end
 
 end
