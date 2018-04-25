@@ -30,7 +30,7 @@ def apply_discount
 end
 
 def items
-  self.add_item
+  self.add_item(title,price,quantity)
 end
 
 end
