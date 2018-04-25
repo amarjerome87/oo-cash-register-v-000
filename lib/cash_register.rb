@@ -13,11 +13,11 @@ def add_item (title,price, quantity = 1)
   @price = price
   @quantity = quantity
   title_array = []
-  @quantity.times do
+  item_count = @quantity.times do
     title_array << @title
   end
   self.total += @price * @quantity.to_i
-  title_array
+  item_count
 end
 
 def apply_discount
