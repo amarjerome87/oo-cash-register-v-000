@@ -1,11 +1,13 @@
 require 'pry'
 class CashRegister
 
-attr_accessor :total, :discount, :title, :price, :quantity
+attr_accessor :total, :discount, :title, :price, :quantity, :items
 
 def initialize (discount = nil)
   @total = 0
   @discount = discount
+  @items = []
+
 end
 
 def add_item (title,price, quantity = 1)
