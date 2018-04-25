@@ -18,7 +18,7 @@ def add_item (title,price, quantity = 1)
     @items  <<  @title
   end
   self.total += @price * @quantity.to_i
-  title_array
+  @items 
 end
 
 def apply_discount
