@@ -30,7 +30,7 @@ def apply_discount
 end
 
 def item
-  title_array
+  self.add_item
 end
 
 end
