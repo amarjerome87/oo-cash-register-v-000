@@ -14,9 +14,8 @@ def add_item (title,price, quantity = 1)
   @title = title
   @price = price
   @quantity = quantity
-  title_array = []
   item_count = @quantity.times do
-    title_array << @title
+    @items  <<  @title
   end
   self.total += @price * @quantity.to_i
   title_array
@@ -31,9 +30,5 @@ def apply_discount
   end
 end
 
-def items
-  self.add_item(title,price,quantity)
-  binding.pry
-end
 
 end
