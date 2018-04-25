@@ -31,7 +31,9 @@ def apply_discount
 end
 
 def void_last_transaction
-end 
+  @total
+  add_item(title,price,quantity)
+end
 
 
 end
