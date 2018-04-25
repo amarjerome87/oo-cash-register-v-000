@@ -21,7 +21,10 @@ end
 
 def apply_discount
   @total = @total - (@total * @discount.to_f/100)
-  puts "After the discount, the total comes to $800."
+  if @discount != nil
+    puts "After the discount, the total comes to $800."
+  else
+  end 
 end
 
 end
