@@ -20,7 +20,7 @@ def add_item (title,price, quantity = 1)
 end
 
 def apply_discount
-  @total.to_i.percent_of(@discount)
+  @total.percent_of(@discount)
   puts "After the discount, the total comes to $800."
 end
 
