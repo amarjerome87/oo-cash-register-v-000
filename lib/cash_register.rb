@@ -24,6 +24,8 @@ def apply_discount
     return "After the discount, the total comes to $800."
   if @discount = nil
     return  "There is no discount to apply."
+  else
+  end 
 end
 
 end
