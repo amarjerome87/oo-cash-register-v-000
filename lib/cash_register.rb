@@ -21,6 +21,7 @@ end
 
 def apply_discount
   @total = @total - (@discount * 100)
+  binding.pry
   puts "After the discount, the total comes to $800."
 end
 
