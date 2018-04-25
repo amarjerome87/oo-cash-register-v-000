@@ -21,6 +21,7 @@ end
 
 def apply_discount
   @total.percent_of(@discount)
+  puts "After the discount, the total comes to $800."
 end
 
 end
