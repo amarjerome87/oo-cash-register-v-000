@@ -13,7 +13,9 @@ def add_item (title,price, quantity = nil)
   @price = price
   @quantity = quantity
   title_array = []
-  title_array << @title
+  @quantity.times do
+    title_array << @title
+  end 
   self.total += @price * @quantity.to_i
 end
 
